@@ -5,4 +5,5 @@ Player_One = str(input("Ready Player One"))
 Player_Two = str(input("Ready Player One"))
 
 import random
-Dice = random.randint(1, 6)
+for x in range(1,6):
+  print(random.randint(1, 6))
